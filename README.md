@@ -1,1 +1,1 @@
-# ProyectoMINTIC
+# ProyectoMinTIC

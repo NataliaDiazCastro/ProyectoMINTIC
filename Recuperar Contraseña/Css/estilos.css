@@ -51,6 +51,8 @@ body{
     border-bottom: solid #C8C8C8 .2rem;
     background-color: #ededed;
     width: 360px;
+    outline: 0px;
+
 }
 
 

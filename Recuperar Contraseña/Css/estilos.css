@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #048dbf;
+    background-size: cover;
+}
+
+.contenedorTodo{
+    padding-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.contenedorContraseña{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    position: relative;
+    top: 20px;
+    left: 10px; 
+}
+
+.contenedorContraseña form{
+    width: 1000px;
+    padding: 80px 20px;
+    background: #ededed;
+    border-radius: 15px;
+
+}
+
+.contenedorContraseña form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -50px;
+    color: #048dbf;
+}
+
+.input{
+    position: absolute;
+    top: 55%;
+	border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+    background-color: #ededed;
+    width: 360px;
+}
+
+
+
+.contenedorContraseña form p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    color: #000;
+}
+
+.contenedorContraseña form button{
+    padding: 10px 40px;
+    position: absolute;
+    top: 70%;
+    font-size: 14px;
+    margin-left: 120px;
+    background: #048dbf;
+    border: 2px solid #fff;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.contenedorContraseña form button:hover{
+    background: white;
+    border: 2px solid #048dbf;
+    color: #048dbf;
+}

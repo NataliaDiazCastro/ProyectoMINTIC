@@ -2,25 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: sans-serif;
 }
 
 body{
     background-color: #048dbf;
     background-size: cover;
-    background-position: center;
 }
 
-main{
-    width: 100%;
-    padding: 20px;
-    margin: auto;
-    margin-top: 100px;
-}
 
 .contenedorTodo{
     width: 100%;
+    display: flex;
+    justify-content: center;
     max-width: 800px;
     margin: auto;
     position: relative;
@@ -30,7 +24,6 @@ main{
 .contenedorLogin{
     display: flex;
     align-items: center;
-    width: 100%;
     max-width: 380px;
     position: relative;
     top: 20px;
@@ -59,9 +52,7 @@ main{
     padding: 10px;
     border: none;
     background: #d4d4d4;
-    /*background: #3acbc7;*/
     font-size: 16px;
-    outline: none;
 }
 
 .contenedorLogin form button{
@@ -72,8 +63,7 @@ main{
     border: 2px solid #fff;
     color: white;
     cursor: pointer;
-    outline: none;
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 .contenedorLogin form button:hover{
@@ -82,6 +72,14 @@ main{
     color: #048dbf;
 }
 
+
+.contenedorLogin form h5{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: #048dbf;
+    cursor: pointer;
+}
 
 .contenedorLogin form h5{
     font-size: 12px;

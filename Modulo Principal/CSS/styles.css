@@ -1,0 +1,48 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #048dbf;
+    background-size: cover;
+}
+
+.contenedorTodo{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+
+.contenedorBotones{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+.buttonF{
+    display: inline-block;    
+}
+
+.contenedorBotones button{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.buttonF h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: #000;
+    cursor: pointer;
+}

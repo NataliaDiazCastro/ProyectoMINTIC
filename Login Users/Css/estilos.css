@@ -12,12 +12,13 @@ body{
 
 
 .contenedorTodo{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    max-width: 800px;
+    padding-top: 92px;
     margin: auto;
+    width: 100%;
+    max-width: 800px;
     position: relative;
+    display: flex; 
+    justify-content: center;
 }
 
 /*Formularios*/
@@ -27,15 +28,12 @@ body{
     max-width: 380px;
     position: relative;
     top: 20px;
-    left: 10px;
 }
 
 .contenedorLogin form{
-    width: 100%;
     padding: 80px 20px;
     background: #ededed;
     border-radius: 20px;
-
 }
 
 .contenedorLogin form h2{
@@ -63,7 +61,8 @@ body{
     border: 2px solid #fff;
     color: white;
     cursor: pointer;
-    transition: all 500ms;
+    outline: none;
+    transition: all 300ms;
 }
 
 .contenedorLogin form button:hover{
@@ -72,14 +71,6 @@ body{
     color: #048dbf;
 }
 
-
-.contenedorLogin form h5{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 15px;
-    color: #048dbf;
-    cursor: pointer;
-}
 
 .contenedorLogin form h5{
     font-size: 12px;

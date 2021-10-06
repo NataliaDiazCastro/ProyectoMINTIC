@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="Css/styles.css">
     <title>Money Horizons</title>
 </head>
 <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="logo.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 <div class="contenedorTodo">
     
     <div class="contenedorFrase">
@@ -15,40 +31,46 @@
     </div>
     
     <div class="contenedorBotones">
-        <div class="buttonF"><button Type:"button"></button>
-            <h3>Finanzas</h3>
+        <div class="buttonF">
+            <a href="https://google.com" target="_blank"><img src="https://i.pinimg.com/originals/40/c5/3f/40c53ff5a0da610aa4daff660c962961.png"></a>
+            <a href="https://google.com" target="_blank"></a>
+            <a href="https://google.com" target="_blank"></a>
+            <a href="https://google.com" target="_blank"></a>
         </div>
-        <div class="buttonF"><button Type:"button"></button>
-            <h3>Alcancia</h3>
-        </div>
-        <div class="buttonF"><button Type:"button"></button>
-            <h3>Estadisticas</h3>
-        </div>
-        <div class="buttonF"><button Type:"button"></button>
-            <h3>Deudas</h3>
+        <div class="titulo">
+            <h3>
+                <a  href="https://google.com" target="_blank">Finanzas</a>
+                <a  href="https://google.com" target="_blank">Alcancia</a>
+                <a  href="https://google.com" target="_blank">Estadisticas</a>
+                <a  href="https://google.com" target="_blank">Deudas</a>
+            </h3> 
         </div>
     </div>
 
-    <div class="calendario">
-        <div class="calendar__info">
-        <div class="calendar__prev" id="prev-month">&#9664;</div>
-        <div class="calendar__month" id="month"></div>
-        <div class="calendar__year" id="year"></div>
-        <div class="calendar__next" id="next-month">&#9654;</div>
-    </div>
+    <div class="container">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days">
 
-    <div class="calendar__week">
-        <div class="calendar__day calendar__item">Mon</div>
-        <div class="calendar__day calendar__item">Tue</div>
-        <div class="calendar__day calendar__item">Wed</div>
-        <div class="calendar__day calendar__item">Thu</div>
-        <div class="calendar__day calendar__item">Fri</div>
-        <div class="calendar__day calendar__item">Sat</div>
-        <div class="calendar__day calendar__item">Sun</div>
-    </div>
-
-    <div class="calendar__dates" id="dates"></div>
-    </div>
-</div> 
+          </div>
+        </div>
+      </div>
+  
 </body>
 </html>

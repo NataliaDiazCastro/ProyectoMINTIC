@@ -24,32 +24,33 @@ body{
 
 .contenedorFrase{
     position: relative;
+    top: 50px;
+    left: 16.5cm;
 }
 
 .boton {
     display: inline-block;
     position: relative;
-    top: 100px;
+    top: 90px;
     left: 10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color:white;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     cursor: pointer;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-
-
-
 .titulo {
    color: black;
     position: relative;
-    top: 85px;
-    right: 80px;
+    top: 50px;
+    right: 615px;
+    display:  flex;
     justify-content: center;
-    align-items: center;
+
+
 }
  
 
@@ -161,7 +162,7 @@ body, html {
     width: 100%;
     max-width: 380px;
     position: relative;
-    top: -350px;
+    top: -385px;
     left: 250px;
 }
 
@@ -179,7 +180,6 @@ body, html {
     text-align: center;
     margin-bottom: 20px;
     color: #048dbf;
-
 }
 
 .registro_Metas form input{
@@ -264,8 +264,13 @@ body, html {
     width: 100%;
     max-width: 380px;
     position: relative;
-    top: -755px;
+    top: -798px;
     left: 700px;
+}
+
+.ul-vertical h2{
+    position: relative;
+    bottom: 11px;
 }
 
 .ul-vertical{

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>Money Horizons</title>
+</head>
+<body>    
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="logo.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+<div class="contenedorTodo">
+    
+    <div class="contenedorFrase">
+        <h2>Finanzas</h2>
+    </div>
+    
+    <div class="contenedorBotones">
+        <div class="buttonF">
+          <div class="boton-centro">
+            <a href="https://google.com" class="boton" target="_blank"></a>
+            <a  href="https://google.com" target="_blank">Alcancia</a>
+          </div>
+          <div class="boton-centro">
+            <a href="https://google.com" class="boton" target="_blank"></a>
+            <a  href="https://google.com" target="_blank">Estadisticas</a>
+          </div>
+          <div class="boton-centro">
+            <a href="https://google.com" class="boton" target="_blank"></a>
+            <a  href="https://google.com" target="_blank">Deudas</a>
+          </div>
+        </div>
+        <div class="botones-centro">
+          <div class="boton-centro">
+            <a href="https://google.com" class="boton" target="_blank"></a>
+            <a  href="https://google.com" target="_blank">Crear ingresos</a>
+          </div>
+          <div class="boton-centro">
+            <a href="https://google.com" class="boton" target="_blank"></a>
+            <a  href="https://google.com" target="_blank">Crear gastos</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="contenedor-recomendaciones">
+      <div class="recomendaciones">
+          <h3>Recomendaciones</h3>
+      </div>
+    </div>
+
+      <script src="script.js"></script>
+</body>
+
+<style>
+
+  .contenedorBotones {
+    display: flex;    
+  }
+
+  .botones-centro {
+    display: flex;
+    align-self: center;
+    width: calc(100% - 238px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25%;
+   }
+
+   .contenedor-recomendaciones {
+    
+     margin-top: 20px;
+      width: 100%;
+      display: flex;
+      min-height: 240px;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .recomendaciones {
+     background: white;
+     min-height: 190px;
+     min-width: 500px;
+     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+     display:  flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .boton-centro {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .boton-centro > a {
+    color: black; /*Color letras botones xd*/
+   }
+  
+
+  .contenedorTodo {
+    padding-top: 80px;
+  }
+
+  .buttonF {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+</style>
+
+</html>

@@ -25,10 +25,6 @@
         </ul>
     </nav>
 
-    <div class="contenedorFrase">
-        <h2>Alcancia</h2>
-    </div>
-
     <div class="contenedorBotones">
         <div class="buttonF">
           <div class="boton-centro">
@@ -55,27 +51,33 @@
             <input type="text" placeholder="Frecuencia">
             <p>Descuento Auto</p>
             <div class="switch-button">
-                <!-- Checkbox -->
                 <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
-                <!-- Botón -->
                 <label for="switch-label" class="switch-button__label"></label>
             </div>
-
             <button>Crear</button>
             <button>Editar</button>
             <button>Eliminar</button>
         </form>
     </div>
 
-    <div class="lista-metas">
-        <ul class="ul-vertical">
-            <h2>Lista de Metas</h2>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+    <div id="main-container" class="tabla">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th> <th>Cantidad</th> <th>Fecha</th> <th>Frecuencia</th>
+                </tr>
+            <thead>
+                <tr>
+                    <td>Meta1</td> <td>1</td> <td>7/10/20</td>  <td>15 días</td>
+                </tr>
+                <tr>
+                    <td>Meta2</td> <td>1</td> <td>7/10/20</td>  <td>15 días</td>
+                </tr>
+                <tr>
+                    <td>Meta3</td> <td>1</td> <td>7/10/20</td>  <td>15 días</td>
+                </tr>
+        </table>
     </div>
-    
+
 </body>
 </html>

@@ -12,19 +12,9 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.contenedorTodo{
-    height: 100%;
-    text-align: center;  
-    position: relative;
     backdrop-filter: blur(3px);
-    padding-top: 80px;
 }
 
-.contenedorFrase{
-    position: relative;
-}
 
 .contenedorBotones {
     position: relative;
@@ -38,7 +28,7 @@ body{
 }
   
 .boton-centro > a {
-    color: black; /*Color letras botones xd*/
+    color: black; /*Color letras botones*/
 }
   
 .buttonF {
@@ -48,13 +38,6 @@ body{
     text-align: center;
 }
   
-.contenedorTodo{
-    padding-top: 80px;
-    height: 100%;
-    text-align: center;  
-    position: relative;
-    backdrop-filter: blur(3px);  
-}
   
 .contenedorFrase{
       position: relative;  
@@ -187,7 +170,6 @@ nav{
     transition: .3s;
     }
 }
-/*fin del menu*/
 
 a {
     text-decoration: none;
@@ -198,7 +180,6 @@ body, html {
 }
 
 .registro_Metas{
-    display: flex;
     align-items: center;
     width: 100%;
     max-width: 380px;
@@ -213,7 +194,6 @@ body, html {
     padding: 25px 20px;
     background: #ededed;
     border-radius: 20px;
-
 }
 
 .registro_Metas form h2{
@@ -300,33 +280,36 @@ body, html {
 }
 
 #main-container{
-    margin: 150px auto;
-    width: 600px;
+	margin: 150px auto;
+	width: 600px;
+    position: relative;
+    display: flex;
+    left: 500px;
+    bottom: 500px;
 }
 
 table{
-    background-color: white;
-    text-align: left;
-    border-collapse: collapse;
-    width: 100%;
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 th, td{
-    border: solid 1px black;
-    padding: 20px;
+	padding: 20px;
 }
 
 thead{
-    background-color: #246455;
-    border-bottom: solid 5px #0F362D;
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
 }
 
-tr:nth-child(event){
-    background-color: #ddd;
+tr:nth-child(even){
+	background-color: #ddd;
 }
 
 tr:hover td{
-    background-color: #369681;
-    color: white;
-
+	background-color: #369681;
+	color: white;
 }

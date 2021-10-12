@@ -11,13 +11,9 @@ body{
 }
 
 .contenedorTodo{
-    padding-top: 200px;
-    width: 100%;
+    padding-top: 160px;
     display: flex;
     justify-content: center;
-    max-width: 800px;
-    margin: auto;
-    position: relative;
 }
 
 .contenedorContraseña{
@@ -80,4 +76,125 @@ body{
     background: white;
     border: 2px solid #048dbf;
     color: #048dbf;
+}
+
+nav{
+    background: #3ACBC7;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    margin-left: 10px;
+}
+.bar-btn{
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background:#0359BE;
+    text-align: center;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: .5s;
+}
+
+.nav-menu li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a:hover{
+    color: #3ACBC7;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+
+@media screen and (min-width: 768px){
+    
+    .logo{
+        margin-left: 10px;
+    }
+
+    nav{
+        height: 80px;
+    }
+
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        position: relative;
+        top: 0;
+        height: 100px;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+   .nav-menu li a{
+       font-size: 16px;
+   } 
+   
+   .nav-menu li a:hover{
+    color: #0359BE;
+    transition: .3s;
+    }
+}
+/*fin del menu*/
+
+a {
+    text-decoration: none;
+}
+  
+body, html {
+    height: 100%;
+}
+
+@media screen and (min-width: 600px){
+    .contenedorTodo{
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .contenedorTodo{
+        padding-top: 50px;
+    }
 }

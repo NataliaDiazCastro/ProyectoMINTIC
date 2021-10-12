@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: sans-serif;
 }
 
@@ -10,51 +11,56 @@ body{
     background-size: cover;
 }
 
-
 .contenedorTodo{
-    top: 50px;
     width: 100%;
-    max-width: 800px;
     position: relative;
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
 /*Formularios*/
-.contenedorLogin{
+.contenedorRegistro{
     display: flex;
     align-items: center;
+    width: 100%;
     max-width: 380px;
     position: relative;
     top: 20px;
 }
 
-.contenedorLogin form{
+.contenedorRegistro form{
+    position: relative;
+    max-height: 90%;
     padding: 80px 20px;
     background: #ededed;
     border-radius: 20px;
+
 }
 
-.contenedorLogin form h2{
+.contenedorRegistro form h2{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 11mm;
     color: #048dbf;
 
 }
 
-.contenedorLogin form input{
+.contenedorRegistro form input{
+    position: relative;
+    bottom: 5mm;  
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     border: none;
     background: #d4d4d4;
     font-size: 16px;
+    outline: none;
 }
 
-.contenedorLogin form button{
+.contenedorRegistro form button{
     padding: 10px 40px;
-    margin-top: 40px;
+    margin: 10px 90px;
     font-size: 14px;
     background: #048dbf;
     border: 2px solid #fff;
@@ -64,25 +70,10 @@ body{
     transition: all 300ms;
 }
 
-.contenedorLogin form button:hover{
+.contenedorRegistro form button:hover{
     background: white;
     border: 2px solid #048dbf;
     color: #048dbf;
-}
-
-
-.contenedorLogin form h5{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 15px;
-    color: #048dbf;
-    cursor: pointer;
-}
-
-@media screen and (min-width: 527px){
-    .contenedorTodo{
-        margin: auto;
-    }
 }
 
 nav{
@@ -142,7 +133,6 @@ nav{
 #check:checked ~ .nav-menu li{
     display: block;
 }
-
 
 
 @media screen and (min-width: 768px){

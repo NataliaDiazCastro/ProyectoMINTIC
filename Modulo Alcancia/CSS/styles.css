@@ -11,8 +11,19 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    backdrop-filter: blur(3px);
+    background-attachment: fixed;   
+    
+}
+
+body:before {
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6)
+
 }
 
 
@@ -28,7 +39,7 @@ body{
 }
   
 .boton-centro > a {
-    color: black; /*Color letras botones*/
+    color: white; /*Color letras botones*/
 }
   
 .buttonF {
@@ -77,6 +88,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+	position: relative;
 }
 .logo{
     width: 70px;
